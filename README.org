@@ -1,0 +1,32 @@
+* Fiction Markup Language
+** Description
+   FML (yes, that's the name) is a modular markup language /intended for fiction/.
+
+   Its modularity aims at rendering it extensible and customizable.
+   Tailor the features to your needs for each project:
+   need centered paragraphs? Activate the =aligned-paragraphs= feature!
+   need colored text? Activate the =color-tag= feature!
+   need something that's not bundled? Create your own tag feature!
+
+** Motivation
+   As a writer who writes to many places and people, in many formats (bbcode, html, .odt files...)
+   I have found frustrating to, for every fiction project, end up writing a lot of code and working
+   more on the code than on the text.
+
+   Look at this bbcode snippet, and tell me it's easy to read the flow of the fiction:
+   #+BEGIN_SRC bbcode
+     [c][b][i]~* FLASH *~[/i][/b][/c]
+     - [color=#88bbee]Ouch![/color] [i]she says, her voice shaking from the shock.[/i] [color=#88bbee]That hurt! A [i]lot[/i]! Why did you do this?[/color]
+     [i]The man walks out of the shadows. His face glitters under the sun. Lily shudders.[/i]
+   #+END_SRC
+
+   All those brackets and codes just to give a few bits of information about the format of the text.
+   
+   FML aims at reducing the total amount of non-text characters in a fiction project,
+   so that you can focus on your content, without losing information about the formatting.
+
+** Documentation
+   Information about the language usage, configuration, and customization will be available on the [[https://github.com/facelesspanda/fml/wiki][wiki]].
+
+** Contribution
+   First I'll do some basic ground work and then we'll see about contributions.
